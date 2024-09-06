@@ -39,7 +39,7 @@ export default function Popup({onClose = () => {}, children, closeRef}: { onClos
   if(!modal) return <></>
 
   return (
-    <dialog ref={dialog} className="[inset-block-start:unset] sm:[inset-block-start:revert] rounded-t-xl sm:rounded-md backdrop:bg-black/65 w-screen max-w-full sm:min-w-[436px] sm:w-1/3" >
+    <dialog ref={dialog} className="[inset-block-start:unset] sm:[inset-block-start:revert] rounded-t-xl sm:rounded-md backdrop:bg-black/65 w-screen max-w-full sm:min-w-[436px] sm:w-1/3 sm:max-w-lg" >
       {children}
     </dialog>
   )
