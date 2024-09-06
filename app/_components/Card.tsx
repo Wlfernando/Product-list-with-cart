@@ -16,7 +16,7 @@ export default function Card({ image, name, category, price }: Product) {
         </picture>
         <AddButton product={{image, name, category, price}} />
         <p className="text-yellow-900" >{category}</p>
-        <p className="font-normal" >{name}</p>
+        <h3 className="font-normal" >{name}</h3>
         <p className="text-orange-700" >${price.toFixed(2)}</p>
       </article>
     </>
