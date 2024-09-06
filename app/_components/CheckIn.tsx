@@ -4,9 +4,8 @@ import Link from "next/link";
 import { useCartContext } from "../_context/cartContext"
 
 export default function CheckIn() {
-  const { cart = [], setCartProducts } = useCartContext()
-  const countedProducts = cart.length;
-  
+  const { cart = [], setCartProducts } = useCartContext();
+
   let totalItems = 0;
   let totalOrder = 0;
 
@@ -34,7 +33,7 @@ export default function CheckIn() {
     <>
       <section className="min-w-64 w-3/4 max-w-96 md:w-auto md:grow text-black bg-white p-5 rounded-xl grid gap-6 text-xs md:text-base">
         <h2 className="text-orange-700 font-bold text-xl">Your Cart ({totalItems})</h2>
-        {countedProducts
+        {!!totalItems
           ? <>
               <ul>{list}</ul>
               <div className="flex justify-between items-center">

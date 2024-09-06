@@ -10,18 +10,19 @@ export default function AddButton({product}: {product: Product}) {
   const { cart, setCartProducts } = useCartContext();
   const [visible, setVisible] = useState<boolean>(false);
 
-  const reference = cart?.find((p) => p.name === product.name);
+  let theIndex = 0;
+  const reference = cart?.find((p, i) => (theIndex = i, p.name === product.name));
   const hasReference = !!reference;
   const { quantity = 0 } = reference ?? {};
   const openedControls = hasReference || visible;
+
+  theIndex = hasReference ? theIndex : -1;
 
   function update(quantity: number) {
     if (quantity > 99 || quantity < 0) return
     setVisible(true)
 
     setCartProducts?.((prev) => {
-      const theIndex = prev.findIndex(p => p.name === product.name);
-
       if(quantity > 0) {
         const newObj = {...product, quantity};
 
