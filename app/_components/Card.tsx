@@ -7,7 +7,7 @@ export default function Card({ image, name, category, price }: Product) {
 
   return (
     <>
-      <article className="text-black min-w-full w-full max-w-64 [&:has(menu>input)>picture>img]:outline-orange-700 text-sm sm:text-base font-bold md:text-wrap">
+      <article className="text-black min-w-full w-full max-w-64 [&:has(menu_input)>picture>img]:outline-orange-700 text-sm sm:text-base font-bold md:text-wrap">
         <picture >
           {addedImgMedia.map((img, i) => i < 2 ? 
             <source srcSet={img.src} media={`(max-width:${img.media}px)`} key={img.media} /> : 
