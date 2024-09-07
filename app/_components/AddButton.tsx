@@ -85,7 +85,7 @@ export default function AddButton({product}: {product: Product}) {
         >
           <button type="button" className={`px-7 py-3 flex gap-1 items-center w-full`} onClick={() => update(1)}>
             <img src='/icon/icon-add-to-cart.svg' alt="cart" />
-            <p>Add to Cart</p>
+            <span>Add to Cart</span>
           </button>
         </li>
       }
