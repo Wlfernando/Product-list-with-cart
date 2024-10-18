@@ -38,7 +38,7 @@ export default function AddButton({product}: {product: Product}) {
   return (
     <>
       <menu
-        className={`group/menu rounded-full border border-neutral-400 flex bg-orange-700 w-[65%] m-auto relative bottom-6 overflow-hidden hover:has-[>:only-child]:border-orange-700 transition-colors sm:text-sm`}
+        className={`group/menu rounded-full border border-neutral-400 flex bg-orange-700 w-[65%] m-auto relative bottom-6 overflow-hidden hover:has-[>:only-child]:border-orange-700 transition-colors sm:text-sm${openedControls ? '' : ' active:animate-wiggle'}`}
         onBlur={({currentTarget: curr, relatedTarget: rel}) => {if(!curr.contains(rel)) setVisible(false)}}
       >
       {openedControls ?
