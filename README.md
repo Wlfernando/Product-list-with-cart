@@ -31,13 +31,36 @@ Users should be able to:
 
 ### Screenshot
 
-![complete page](./public/Screens/full-page.png)
-![complete page in movil](./public/Screens/full-page-in-movil.png)
-![inactive button](./public/Screens/one-product.png)
-![active button](./public/Screens/selected-product.png)
-![complete page with the cart](./public/Screens/full-page-with-cart-open.png)
-![show confirmation](./public/Screens/show-confirmation.png)
-![show confirmation in movil](./public/Screens/show-confirmation-on-movil.png)
+<section>
+  <figure>
+    <img src='./public/Screens/full-page.png' alt='complete page' width=600>
+    <figcaption>Showcase of the page</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/full-page-with-cart-open.png' alt='complete page with the cart' width=600>
+    <figcaption>Selected product</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/one-product.png' alt='inactive button'>
+    <figcaption>Button before select</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/selected-product.png' alt='active button'>
+    <figcaption>Product has been selected</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/show-confirmation.png' alt='show confirmation' width=600>
+    <figcaption>The order has been confirmed</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/full-page-in-movil.png' alt='complete page in mobile' height='900'>
+    <figcaption>Also responsiveness in mobile</figcaption>
+  </figure>
+  <figure>
+    <img src='./public/Screens/show-confirmation-on-movil.png' alt='show confirmation in movil'>
+    <figcaption>The confirmation in mobile</figcaption>
+  </figure>
+</section>
 
 ### Links
 
