@@ -31,37 +31,36 @@ Users should be able to:
 
 ### Screenshot
 
-<section style='display:grid;place-items:center;'>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/full-page.png' alt='complete page' width=600>
-    <figcaption>Showcase of the page</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/full-page-with-cart-open.png' alt='complete page with the cart' width=600>
-    <figcaption>Selected product</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/one-product.png' alt='inactive button'>
-    <figcaption>Button before select</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/selected-product.png' alt='active button'>
-    <figcaption>Product has been selected</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/show-confirmation.png' alt='show confirmation' width=600>
-    <figcaption>The order has been confirmed</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/full-page-in-movil.png' alt='complete page in mobile' height='900'>
-    <figcaption>Also responsiveness in mobile</figcaption>
-  </figure>
-  <figure style='display:grid;justify-items:center'>
-    <img src='./public/Screens/show-confirmation-on-movil.png' alt='show confirmation in movil'>
-    <figcaption>The confirmation in mobile</figcaption>
-  </figure>
-</section>
+<img src='./public/Screens/full-page.png' alt='complete page' width=600>
 
+Showcase of the page
+
+<img src='./public/Screens/full-page-with-cart-open.png' alt='complete page with the cart' width=600>
+
+Selected product
+
+
+<img src='./public/Screens/one-product.png' alt='inactive button'>
+
+Button before select
+
+
+<img src='./public/Screens/selected-product.png' alt='active button'>
+
+Product has been selected
+
+<img src='./public/Screens/show-confirmation.png' alt='show confirmation' width=600>
+
+The order has been confirmed
+
+<img src='./public/Screens/full-page-in-movil.png' alt='complete page in mobile' height='900'>
+
+Also responsiveness in mobile
+
+<img src='./public/Screens/show-confirmation-on-movil.png' alt='show confirmation in movil'>
+
+The confirmation in mobile
+  
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
