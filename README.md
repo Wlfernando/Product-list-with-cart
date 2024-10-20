@@ -31,6 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
+![complete page](./public/Screens/full-page.png?caption=Showcase%20of%20the%20page&size=650x434)
+
 <section>
   <figure>
     <img src='./public/Screens/full-page.png' alt='complete page' width=600>
